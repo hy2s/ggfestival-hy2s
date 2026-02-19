@@ -10,6 +10,7 @@ import { IoSearch } from "react-icons/io5";
 import FestivalWrap from './FestivalWrap';
 import Comming from './Comming';
 import GMap from './GMap';
+import FestivalUpdate from '../../utils/FestivalUpdate';
 
 const Mainpage = ({baseLocate}) => {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ const Mainpage = ({baseLocate}) => {
         backgroundImage: `url('${process.env.PUBLIC_URL}/images/bg.png')`,
       }}
     >
+      {/* <FestivalUpdate /> */}
       <section className='mainpage-section'>
         {/* 검색 페이지 이동 연결 */}
         <div className='search-wrap' onClick={() => navigate('/search')}>

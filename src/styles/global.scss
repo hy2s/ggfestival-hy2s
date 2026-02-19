@@ -13,4 +13,6 @@ html{ font-size: 62.5%; letter-spacing: -0.02em; }
 body{ 
     font-family: 'Pretendard Variable', sans-serif;
     color: var(--font-light);
+    max-width: 600px;
+    margin: 0 auto;
 }

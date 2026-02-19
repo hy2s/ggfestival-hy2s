@@ -3,6 +3,7 @@
   @include flex-layout(row, space-around, center);
   bottom: 0;
   width: 100%;
+  max-width: 600px;
   height: 72px;
   background-color: var(--bg-white);
   border-top: 1px solid var(--gray-100);

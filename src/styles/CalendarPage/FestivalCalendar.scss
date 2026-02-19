@@ -15,7 +15,7 @@
 }
 .calendar-wrap {
   width: 100%;
-  max-width: 768px;
+  max-width: 600px;
   height: 100%;
   padding: 25px 0;
   margin-top: 50px;
@@ -23,7 +23,8 @@
   background-size: cover !important;
   background-position: center center !important;
   position: fixed !important;
-  top: 0; left: 0;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
 }
 .react-calendar {
   padding: 20px;
